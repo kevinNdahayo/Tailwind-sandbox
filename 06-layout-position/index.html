@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200 my-4">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">Absolute child</div>
+    </div>
+    <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h16 w-16 bg-yellow-800">Kevin</div>
+    </div>
+    <!-- Top right corner -->
+
+    <!-- Bottom left corner -->
+
+    <!-- Bottom right corner -->
+
+    <!-- Span top edge -->
+
+    <!-- Span left edge -->
+
+    <!-- Span right edge -->
+
+    <!-- Span bottom edge -->
+
+    <!-- Display Classes -->
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quibusdam
+      <span class="inline font-bold">This is inline</span>
+      sequi, libero ipsa natus nihil consequuntur eius molestias blanditiis
+      cumque quasi delectus, tempora labore? Ipsum qui fugit perferendis amet
+      laboriosam, debitis alias et ut nostrum fugiat numquam minima voluptatibus
+      <span class="inline-block font-bold">This is inline block</span>
+      laudantium, eos ab quis assumenda reprehenderit quaerat officia corrupti
+      <span class="block font-bold">This is block</span>
+      ex in, molestiae obcaecati? Nulla ratione harum consectetur perspiciatis
+      <span class="hidden">This is hidden</span>
+      odio ut minima?
+    </div>
+
+    <!-- Z-Index -->
+    <div class="relative h-36 my-8 p-6 bg-yellow-500">
+      <div class="absolute h-24 w-24 left-10 bg-blue-200 z-40">1</div>
+      <div class="absolute h-24 w-24 left-20 bg-blue-300">2</div>
+      <div class="absolute h-24 w-24 left-40 bg-blue-400 z-10">3</div>
+      <div class="absolute h-24 w-24 left-60 bg-blue-600 z-20">4</div>
+      <div class="absolute h-24 w-24 left-80 bg-blue-800 z-30">5</div>
+    </div>
+
+    <!-- Floats -->
+    <div class="w-1/2 m-4">
+      <img class="h-48 w-48 float-left m-4" src="../assets/img/img1.jpg" />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+        dignissimos harum quos nostrum reiciendis fuga? Repellendus explicabo
+        qui aspernatur beatae debitis laboriosam reprehenderit unde delectus
+        assumenda perspiciatis veritatis minima ad expedita illum veniam nisi,
+        ut autem in dolorum earum esse! Tenetur, nesciunt. Culpa quae officia
+        iste qui, rerum consectetur doloribus aspernatur, velit recusandae,
+        aperiam fugiat quaerat at quidem maiores reiciendis?Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Sunt, amet.Culpa quae officia
+        iste qui, rerum consectetur doloribus aspernatur, velit recusandae,
+        aperiam fugiat quaerat at quidem maiores reiciendis?Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Sunt, amet.
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
